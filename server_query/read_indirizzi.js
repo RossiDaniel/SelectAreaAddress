@@ -10,7 +10,6 @@ exports.query = function(con){
 
     app.get('/rows', function(req,res){
         var sql = "SELECT * FROM indirizzi";
-        console.log(sql);
         con.query(sql, function (err, result) {
         if (err) {throw err;}
         res.send(result);

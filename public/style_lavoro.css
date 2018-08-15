@@ -1,0 +1,284 @@
+*{
+	padding: 0em;
+	margin: 0em;
+}
+
+html, body{
+	max-width: 1024px;
+	margin: auto;				/*ridefinice il bordo in automatico*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+body{
+	border: 1px solid #DDD;		/*inserisce il borbo*/
+	height: 100%; 
+	margin: 0px; 
+	padding: 0px
+}
+
+#header{
+	text-align: center;
+	min-height:9em;
+}
+
+#logo{
+	float:left;
+	width: 8em;
+	height: 8em; 
+	margin: 0.5em;
+}
+
+#header h1{
+	padding-top: 0.5em;
+	color:#BD091B;
+	font-size: 3.5em;
+}
+
+#header h2{
+	font-size: 1.3em;
+	font-style: italic;
+	font-weight: normal;
+}
+
+#position{
+	background-color: #BD091B;
+	color:#FFFFFF;
+	padding:0.5em;
+	font-style: bold;
+	border-top: 1px solid #DDD;
+}
+
+#menu{
+	min-width: 20%;
+	float:left;
+	width: 20%;
+	font-style: 1.1em;
+	height:90%;
+}
+
+ul{
+	list-style-type: none;
+}
+
+#menu li{
+	padding: 1em 1em 1em 1em; 
+}
+
+#footer{
+	border-top: 1px solid #DDD;
+	text-align: center;
+}
+
+#down{
+	padding-top: 0.5em;
+	padding-left: 1em;
+	font-size: 0.9em;	
+}
+
+#HTML{
+	padding-top: 0.5em;
+	float: left;
+}
+
+#CSS{
+	padding-top: 0.5em;
+	float: right;	
+}
+
+/*------------------------------------------------*/
+/*INDEX*/
+#content_index{
+	margin-left: 20%;
+	font-size: 0.9em;	
+	border-left: 1px solid #DDD;
+	padding-left: 1em;
+	margin-right: 1em;
+	padding-bottom: 1em;
+}	
+
+#content_index h2{
+	padding-top: 1em;
+	text-align: center;
+}
+
+#cast{
+	width: 80%;
+    display: block;
+	margin:0 auto;
+}
+
+/*------------------------------------------------*/
+/*TRAMA*/
+
+#content_trama{
+	margin-left: 20%;
+	font-size: 0.9em;	
+	border-left: 1px solid #DDD;
+	padding-left: 1em;
+	margin-right: 1em;
+	padding-bottom: 1em;
+}
+
+#content_trama h2{
+	padding-top:1.5em;
+	padding-bottom:1em;
+}
+
+#salotto{
+	display: block;
+	width:65%;
+	padding-top:1em;
+	padding-bottom:1em;
+	margin: 0 auto;
+}
+
+#hero{
+	width:65%;
+	padding-top:1em;
+	padding-bottom:1em;
+	margin: 0 auto;
+	display: block;    
+}
+/*------------------------------------------------*/
+/*CURIOSITA*/
+
+#content_curiosita{
+	margin-left: 20%;
+	font-size: 0.9em;	
+	border-left: 1px solid #DDD;
+	padding-left: 1em;
+	margin-right: 1em;
+	padding-bottom: 1em;
+}
+
+#content_curiosita h2{
+	padding-top:1em;
+	padding-bottom:1em;
+	text-align: center;
+}
+
+#content_curiosita h4{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#ladies{
+	padding-top: 1em;
+	margin-right: 32%;
+	padding-right:1em;
+	padding-bottom: 1.5em;
+}
+
+#ladiesIMG{
+	padding-top:1.5em;
+	float:right;
+	width:30%;
+}
+
+#lavagna{
+	padding-top:1em;
+	margin-right: 32%;
+	padding-right:1em;
+	padding-bottom:4em;
+}
+
+#lavagnaIMG{
+	float:right;
+	width:30%;
+	margin:auto;
+}
+
+/*------------------------------------------------*/
+/*PROTAGONISTI*/
+
+#content_protagonisti{
+	margin-left: 20%;
+	font-size: 0.9em;	
+	border-left: 1px solid #DDD;
+	padding-left: 1em;
+	margin-right: 1em;
+	padding-bottom: 1em;
+}
+ 
+#content_protagonisti h2{
+	padding-top:1em;
+	padding-bottom:1em;
+	text-align: center;
+}
+
+div#person{
+
+	border: 1px solid #DDD;
+	margin-top:1em;
+}
+
+div#person h3{
+	background-color: #BD091B;
+	color:white;
+	font-size: 1.1em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	padding-left:1em;
+
+}
+
+#personIMG{
+	float:left;
+	width:18%;
+	padding-left: 0.5em;
+	padding-top: 0.5em;
+}
+
+#testo{
+	font-size: 1em;
+	padding: 0.5em 1em 1em 1em;
+	margin-left: 20%;
+}
+
+/*------------------------------------------------*/
+/*STAGIONI*/
+#content_stagione{
+	margin-left: 20%;
+	font-size: 0.9em;	
+	border-left: 1px solid #DDD;
+	padding-left: 1em;
+	margin-right: 1em;
+	padding-bottom: 1em;	
+}
+
+#content_stagione h2{
+	padding-top: 1em;
+    text-align: center;
+}
+#content_stagione h4{
+    padding-top: 1em;
+    padding-bottom: 1em;
+	text-align: center;
+}
+#content_stagione table,td {
+    border: 1px solid black;
+    border-collapse: collapse;    
+}
+
+#content_stagione table{
+    margin:auto;
+}
+
+#content_stagione th{
+    border: 1px solid black;	
+	background-color: #BD091B;
+	color:#FFFFFF;
+}
+
+#content_stagione td,th{
+    text-align: center;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+/*mappa*/
+
+.labelsx {color: white; background-color: red; font-size: 10px; 
+	text-align: center;  white-space: nowrap; z-index:1000  }
+
+#map_canvas { height: 50%; width: 100%; }
